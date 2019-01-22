@@ -100,6 +100,7 @@ public class ListMockTest {
         arrayListSpy.add("Test4");
         System.out.println(arrayListSpy.size());// 5
 
+        verify(arrayListSpy).add("test4");
 
     }
 }
